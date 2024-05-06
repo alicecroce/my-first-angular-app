@@ -5,14 +5,14 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
 import { ServicesComponent } from './services/services.component';
-import { AlertComponent } from './alert/alert.component';
+import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
     ServicesComponent,
-    AlertComponent
+    WarningAlertComponent
   ],
   imports: [
     BrowserModule,

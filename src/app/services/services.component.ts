@@ -24,5 +24,8 @@ onCreateServer(){
   this.serverCreationStatus='New server was created!';
 }
 
+onUpdateServerName(event:any){
+  console.log(event);
+}
 
 }
